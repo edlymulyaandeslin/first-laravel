@@ -8,15 +8,15 @@
                 <form method="GET" action="/welcome" class="row g-3">
                     <div class="col-md-6">
                         <label class="form-label">Nama Depan</label>
-                        <input type="text" class="form-control" placeholder="John" name="namaDepan">
+                        <input type="text" class="form-control" placeholder="John" name="namaDepan" required>
                     </div>
                     <div class="col-md-6">
                         <label class="form-label">Nama Belakang</label>
-                        <input type="text" class="form-control" placeholder="Doe" name="namaBelakang">
+                        <input type="text" class="form-control" placeholder="Doe" name="namaBelakang" required>
                     </div>
                     <div class="col-12">
                         <label class="form-label">Alamat</label>
-                        <input type="text" class="form-control" placeholder="contoh : pasir pengaraian">
+                        <input type="text" class="form-control" placeholder="contoh : pasir pengaraian" required>
                     </div>
                     <div class="col-md-6">
                         <label class="form-label">Kabupaten</label>

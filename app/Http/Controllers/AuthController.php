@@ -9,15 +9,20 @@ class AuthController extends Controller
     public function register()
     {
 
-        return view('register');
+        return view('register', [
+            'title' => 'register'
+        ]);
     }
 
     public function welcome(Request $request)
     {
+        $namaDpn = $request->input('namaDepan');
+        $namaBel = $request->input('namaBelakang');
 
         return view('welcome', [
-            'namaDpn' => $request->input('namaDepan'),
-            'namaBel' => $request->input('namaBelakang'),
+            'title' => 'Welcome',
+            'namaDpn' => $namaDpn,
+            'namaBel' => $namaBel
         ]);
     }
 }
