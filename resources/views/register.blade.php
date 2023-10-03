@@ -19,18 +19,20 @@
                         <input type="text" class="form-control" placeholder="contoh : pasir pengaraian">
                     </div>
                     <div class="col-md-6">
-                        <label for="inputCity" class="form-label">Kabupaten</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <label class="form-label">Kabupaten</label>
+                        <select class="form-select">
+                            <option selected disabled>Select</option>
+                            <option>Kab. Rokan Hulu</option>
+                        </select>
                     </div>
                     <div class="col-md-6">
-                        <label for="inputState" class="form-label">Provinsi</label>
-                        <select id="inputState" class="form-select">
+                        <label class="form-label">Provinsi</label>
+                        <select class="form-select">
                             <option selected disabled>Select</option>
                             <option>Riau</option>
                             <option>Jakarta</option>
                         </select>
                     </div>
-
                     <div class="col-12 d-flex justify-content-center">
                         <button type="submit" class="btn btn-primary">Sign Up</button>
                     </div>
